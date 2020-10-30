@@ -11,7 +11,8 @@ namespace RazorPagesMovie.Models
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         public DateTime Release { get; set; }
-        [Column(TypeName = "real(16, 2)")]
+        [Column(TypeName = "real")]
         public float Price { get; set; }
+        public string Rating { get; set; }
     }
 }
