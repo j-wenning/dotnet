@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20201030232443_Ratings.cs" />
+    <Compile Remove="Migrations\20201030232443_Ratings.Designer.cs" />
+    <Compile Remove="Migrations\20201030232844_Rating.cs" />
+    <Compile Remove="Migrations\20201030232844_Rating.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
